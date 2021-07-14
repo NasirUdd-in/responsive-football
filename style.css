@@ -25,7 +25,23 @@ main{
     color: white;
     line-height: 80px;
     /* margin: 207px 799px 240px 156px; */
+    color: #ffffff;
+    background: linear-gradient(to right, white 0, #E02C6D 10%, white 20%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shine 3s infinite linear;
+    animation-fill-mode: forwards;
+    -webkit-text-size-adjust: none;    
 }
+@keyframes shine{
+    0%{background-position: 0;
+} 
+    60%{background-position: 180px;
+}
+    100%{background-position: 180px;
+}  
+}
+
 .hero-area img{
     width: 556px;
     height: 438px;
@@ -60,62 +76,56 @@ main{
     height: 256px;
     align-items: center;
 }
-
+.player-title{
+    font-size: 28px;
+}
+.player-detail{
+    font-size: 15px;
+    line-height: 26px;
+    color: gray;
+}
 /*********************  Footer Section  *************************/
 
 .footer-part{
     padding-top: 50px;
     text-align: center;
 }
-.foot-img{
+.footer-img{
     size: 50px;
-    }
-.foot-img img{
-        width: 30%;
+}
+.footer-img img{
+    width: 483px;
 }
     
-.icon-part{
-        display: flex;
-        justify-content: center;
-        flex-grow: 20px;
-      font-size: 40px;
+.icon-items{
+    display: flex;
+    justify-content: center;
+    flex-grow: 20px;
 }
-.fa-facebook-f{
-        color: gray;
-        padding: 50px;
-        font-size: 50px;
+.fa-facebook-f, .fa-instagram, .fa-linkedin-in, .fa-youtube{
+    color: gray;
+    padding: 30px;
+    font-size: 30px;
 }
 .fa-facebook-f:hover{
-        color: #4472b8;
+    color: #4472b8;
            
 }
             
-.fa-instagram{
-        color: gray;
-        padding: 50px;
-        font-size: 50px;
-}
 .fa-instagram:hover{
-        color:#af3192;
+    color:#af3192;
 }
         
-.fa-linkedin-in{
-        color: gray;
-        padding: 50px;
-        font-size: 50px;
-}
 .fa-linkedin-in:hover{
-        color: #4472b8;
+    color: #4472b8;
 }
-.fa-youtube{
-        color: gray;
-        padding: 50px;
-        font-size: 50px;
-}
+
 .fa-youtube:hover{
-            color: red;
+    color: red;
 }
-.copyright-part{
-        text-align: center;
-        color: gray;
+.copyright-item{
+    text-align: center;
+    color: gray;
 }
+
+
