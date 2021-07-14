@@ -107,17 +107,25 @@ hero area end
 /*-----------------------------------------
  players area end
  -------------------------------------------*/
+ /* messi-highlights star */
+ .messi-title{
+     text-align: center;
+     font-size: 50px;
+     color: #E02C6D;
+ }
+ .messi-video{
+    width: 70em;
+    height: 35em;
+ }
+  /* messi-highlights end */
 
 /*-----------------------------------------
 Footer area start
 ------------------------------------------*/
 
-.footer-part{
-    padding-top: 50px;
-    text-align: center;
-}
 .footer-img{
     size: 50px;
+    padding-top: 50px;
 }
 .footer-img img{
     width: 483px;
