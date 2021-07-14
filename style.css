@@ -108,6 +108,12 @@ hero area end
  players area end
  -------------------------------------------*/
  /* messi-highlights star */
+ .messi-highlights{
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+    background-color: #2D25A0;
+    margin-left: 30px;
+    border-radius: 11px;
+ }
  .messi-title{
      text-align: center;
      font-size: 50px;
@@ -118,6 +124,51 @@ hero area end
     height: 35em;
  }
   /* messi-highlights end */
+  /* newsletter start */
+  form {
+    border: 3px solid #f1f1f1;
+    font-family: Arial;
+  }
+  
+  .newsletter-area{
+    padding: 20px;
+    background-color: #f1f1f1;
+  } 
+  .newsletter-title{
+      margin: 60px 20px;
+  }
+  .newsletter-title h2{
+      font-size: 45px;
+      color:#E02C6D;
+  }
+  
+  input[type=text], input[type=submit] {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  input[type=checkbox] {
+    margin-top: 16px;
+  }
+  
+  input[type=submit] {
+    background-color: #2D25A0;
+    color: white;
+    border: none;
+  }
+  
+  input[type=submit]:hover {
+    opacity: 0.8;
+  }
+  hr{
+      color: gray;
+      margin-top: 25px;
+  }
+  /* newsletter end  */
 
 /*-----------------------------------------
 Footer area start
