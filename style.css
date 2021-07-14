@@ -16,15 +16,17 @@ main{
 .hero-area{
     background-color: #2D25A0;
     display: flex;
-    justify-content: space-evenly;
-    padding: 252px 0px 200px 0px;
+    justify-content: center;
+    padding: 235px 0px 175px 56px;
 
+}
+.hero-title {
+    margin-right: 78px;
 }
 .hero-title h2{
     font-size: 65px;
     color: white;
     line-height: 80px;
-    /* margin: 207px 799px 240px 156px; */
     color: #ffffff;
     background: linear-gradient(to right, white 0, #E02C6D 10%, white 20%);
     -webkit-background-clip: text;
@@ -43,8 +45,8 @@ main{
 }
 
 .hero-area img{
-    width: 556px;
-    height: 438px;
+    width: 574px;
+    height: 463px;
 }
 
 .hero-title a{
