@@ -1,5 +1,12 @@
+/*----------------------------
+ fonts
+ --------------------------- */
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+/*-------------------------
+ common styles or Utilities 
+-----------------------------*/
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
@@ -13,6 +20,9 @@ main{
     align-items: center;
     flex-direction: column;
 }
+/* --------------------------------
+hero area started
+-----------------------------------*/
 .hero-area{
     background-color: #2D25A0;
     display: flex;
@@ -35,6 +45,7 @@ main{
     animation-fill-mode: forwards;
     -webkit-text-size-adjust: none;    
 }
+/* hearo area animation */
 @keyframes shine{
     0%{background-position: 0;
 } 
@@ -60,6 +71,13 @@ main{
 .button-icon{
     padding-left: 6px;
 }
+/* --------------------------------------
+hero area end
+-------------------------------------- */
+
+/*-------------------------------------
+ players area started
+ -------------------------------------*/
 .players{
     margin: 120px  130px  120px 130px;
     display: grid;
@@ -86,7 +104,13 @@ main{
     line-height: 26px;
     color: gray;
 }
-/*********************  Footer Section  *************************/
+/*-----------------------------------------
+ players area end
+ -------------------------------------------*/
+
+/*-----------------------------------------
+Footer area start
+------------------------------------------*/
 
 .footer-part{
     padding-top: 50px;
