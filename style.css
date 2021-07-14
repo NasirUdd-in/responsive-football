@@ -216,7 +216,14 @@ Footer area start
  /* Mobile Devices*/
  @media only screen and (max-width:481px) {
     .hero-area{
-        flex-direction: column;
+        /* flex-direction: column; */
+        flex-wrap: wrap;
+        padding-top: 74px;
+        padding-left: 93px;
+    }
+    .hero-image img{
+        padding-top: 20px;
+        width: 80%;
     }
     .players{
         display: grid;
@@ -225,6 +232,9 @@ Footer area start
     .messi-video {
         width: 20em;
         height: 15em;
+    }
+    form {
+        width: 80%;
     }
     .footer-img img {
         width: 100%;
