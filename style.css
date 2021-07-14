@@ -212,5 +212,14 @@ Footer area start
     text-align: center;
     color: gray;
 }
-
-
+/* footer area end */
+ /* Mobile Devices*/
+ @media only screen and (max-width:481px) {
+    .hero-area{
+        
+    }
+    .players{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+}
